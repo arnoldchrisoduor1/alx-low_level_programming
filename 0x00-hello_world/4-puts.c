@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  *
  *  * main - main block
@@ -16,4 +17,3 @@ int main(void)
 	return (0);
 
 }
-
