@@ -1,4 +1,4 @@
-#include <stdio.h>r
+#include <stdio.h>
 /**
  * main - Prints numbers between 0 to 9.
  *
