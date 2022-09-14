@@ -1,39 +1,47 @@
 #include <stdio.h>
 #include"main_0.c"
+
 /**
- * main - print double digit combos
+ * print_times_table - Prints the n times table
  *
- * Description: print double digit combos
+ * @n: number times table (0 < n <= 15)
  *
- * Return: Always 0 (Success)
+ * Return: no return
  */
-int main()
+void print_times_table(int n)
 {
-	int i, j;
+	int a, b, op;
 
-	i = 48;
-	j = 48;
-
-	while (i < 58)
+	if (n >= 0 && n <= 15)
 	{
-		j = i + 1;
-		while (j < 58)
+		for (a = 0; a <= n; a++)
 		{
-			putchar(i);
-			putchar(j);
-
-			if (i < 56 || j < 57)
+			_putchar(48);
+			for (b = 1; b <= n; b++)
 			{
-				putchar(44);
-				putchar(32);
+				op = a * b;
+				_putchar(44);
+				_putchar(32);
+				if (op <= 9)
+				{
+					_putchar(32);
+					_putchar(32);
+					_putchar(op + 48);
+				}
+				else if (op <= 99)
+				{
+					_putchar(32);
+					_putchar((op / 10) + 48);
+					_putchar((op % 10) + 48);
+				}
+				else
+				{
+					_putchar(((op / 100) % 10) + 48);
+					_putchar(((op / 10) % 10) + 48);
+					_putchar((op % 10) + 48);
+				}
 			}
-			j++;
+			_putchar('\n');
 		}
-
-		i++;
 	}
-
-	putchar(10);
-
-	return (0);
 }
