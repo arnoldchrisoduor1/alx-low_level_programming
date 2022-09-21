@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "More on Pointers" >>README.md
+git add .
+git commit -m "Pointers"
+git push
