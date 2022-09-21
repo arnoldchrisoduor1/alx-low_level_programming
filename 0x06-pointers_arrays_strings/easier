@@ -1,5 +1,28 @@
 #!/bin/bash
-echo "More on Pointers" >> 0-strcat.c
+echo "<>" >> 1-strncat.c
+
+echo "<>" >> 2-strncpy.c
+
+echo "<>" >> 3-strcmp.c
+
+echo "<>" >> 4-rev_array.c
+
+echo "<>" >> 5-string_toupper.c
+
+echo "<>" >> 6-cap_string.c
+
+echo "<>" >> 7-leet.c
+
+echo "<>" >> 100-rot13.c
+
+echo "<>" >> 101-print_number.c
+
+echo "<>" >> 102-magic.c
+
+echo "<>" >> 103-infinite_add.c
+
+echo "<>" >> 104-print_buffer.c
+
 git add .
 git commit -m "Pointers"
 git push
