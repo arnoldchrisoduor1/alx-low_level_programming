@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "More on Pointers" >>main.h
+echo "More on Pointers" >> 0-strcat.c
 git add .
 git commit -m "Pointers"
 git push
