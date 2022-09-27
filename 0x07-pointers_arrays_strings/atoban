@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "More practice on pointers and arrays" > README.md
+
+echo "<>" > 0-memset.c
+
+echo "<>" > 1-memcpy.c
+
+echo "<>" > 2-strchr.c
+
+echo "<>" > 3-strspn.c
+
+echo "<>" > 4-strpbrk.c
+
+echo "<>" > 5-strstr.c
+
+echo "<>" > 8-print_diagsums.c
+
+echo "<>" > 7-print_chessboard.c
+
+echo "<>" > 100-set_string.c
+
+echo "<>" > 101-crackme_password
+
+
+
+git add .
+
+git commit -m "update"
+
+git push
