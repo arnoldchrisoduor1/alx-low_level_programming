@@ -1,13 +1,26 @@
-#include "main.h"
-#include <unistd.h>                                                                                                                  
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+/*
+ * File: 0-memset.c
+ * Auth: not
  */
-int _putchar(char c)
+
+#include "main.h"
+
+/**
+ * _memset - Fills the first n bytes of the memory area
+ *          pointed to by @s with the constant byte @c.
+ * @s: A pointer to the memory area to be filled.
+ * @c: The character to fill the memory area with.
+ * @n: The number of bytes to be filled.
+ * description _memset: over there
+ *
+ * Return: A pointer to the filled memory area @s.
+ *
+ */
+void *_memset(void *s, int c, size_t n)
 {
-return (write(1, &c, 1));
+unsigned int index;
+unsigned char *memory = s, value = c;
+for (index = 0; index < n; index++)
+memory[index] = value;
+return (memory);
 }
