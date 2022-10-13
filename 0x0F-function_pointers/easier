@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "<>" > 2-int_index.c
+echo "<>" > 3-main.c
+echo "<>" > 3-op_functions.c
+echo "<>" > 3-get_op_func.c
+echo "<>" > 3-calc.h
+echo "<>" > 100-main_opcodes.c
+
